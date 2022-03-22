@@ -1,0 +1,3 @@
+D:\Project\C Sharp\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+D:\Project\C Sharp\Assignment\Assignment\obj\Debug\Assignment.csproj.SuggestedBindingRedirects.cache
+D:\Project\C Sharp\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
