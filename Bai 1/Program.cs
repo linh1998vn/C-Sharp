@@ -1,27 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿int n;
+long result = 1;
+Console.Write("Nhap so nguyen can tinh: ");
 
-namespace Bai_1
+n = Convert.ToInt32(Console.ReadLine());
+
+for (var i = 1; i <= n; i++)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            int n;
-            long result = 1;
-            Console.Write("Nhap so nguyen can tinh: ");
-
-            n = Convert.ToInt32(Console.ReadLine());
-
-            for (var i = 1; i <= n; i++)
-            {
-                result *= i;
-            }
-
-            Console.WriteLine($"giai thua cua {n} la {result}");
-        }
-    }
+    result *= i;
 }
+
+Console.WriteLine($"giai thua cua {n} la {result}");
